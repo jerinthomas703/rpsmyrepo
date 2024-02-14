@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Get_Playbook') {
             steps {
-                git 'https://github.com/jerinthomas703/rpsmyrepo'
+                git 'https://github.com/jerinthomas703/rpsmyrepo.git'
             }
         }
         stage('Run_Playbook') {
